@@ -1,5 +1,7 @@
 # Pyweek 39 Game Jam Entry!
 
+![alt text](https://raw.githubusercontent.com/d-orm/pyweek_39_game/refs/heads/main/screenshot.png "Screenshot")
+
 ## DATASTREAM DEFENDER
 
 * Defend the datastream from the incoming obstacles!
