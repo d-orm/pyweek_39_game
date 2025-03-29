@@ -31,7 +31,7 @@ You can also checkout the [repo](https://github.com/d-orm/pyweek_39_game) to run
 
 To run in local browser:
 ```bash
-python -m python -m http.server -d .
+python -m http.server -d .
 ```
 Then navigate to http://localhost:8000/ 
 (internet connection required still for dependencies)
