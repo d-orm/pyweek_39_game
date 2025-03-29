@@ -1,0 +1,13 @@
+from typing import Protocol
+
+import pygame
+
+
+class Audio[T](Protocol):
+    def load_sound(self, path: str) -> T: ...
+
+    def load_music(self, path: str) -> T: ...
+
+    def play_sound(self, sound: T) -> None: ...
+
+    def play_music(self, sound: T) -> None: ...

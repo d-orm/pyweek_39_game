@@ -1,0 +1,46 @@
+name = "Datastream Defender"
+
+packages = [
+	"zengl",
+	"pygame-ce",
+	"numpy",
+	"webwindow"
+]
+
+[files]
+"./src/app.py" = "./src/app.py"
+"./src/scene.py" = "./src/scene.py"
+"./src/timer.py" = "./src/timer.py"
+"./src/__init__.py" = "./src/__init__.py"
+"./src/assets/circuit_board.png" = "./src/assets/circuit_board.png"
+"./src/assets/obstacle_1.png" = "./src/assets/obstacle_1.png"
+"./src/assets/obstacle_2.png" = "./src/assets/obstacle_2.png"
+"./src/assets/obstacle_3.png" = "./src/assets/obstacle_3.png"
+"./src/assets/obstacle_4.png" = "./src/assets/obstacle_4.png"
+"./src/assets/obstacle_5.png" = "./src/assets/obstacle_5.png"
+"./src/assets/obstacle_6.png" = "./src/assets/obstacle_6.png"
+"./src/assets/obstacle_7.png" = "./src/assets/obstacle_7.png"
+"./src/assets/robot.png" = "./src/assets/robot.png"
+"./src/assets/RobotoMono-Bold.ttf" = "./src/assets/RobotoMono-Bold.ttf"
+"./src/assets/sfx/explosion.ogg" = "./src/assets/sfx/explosion.ogg"
+"./src/assets/sfx/Galactic Lights.ogg" = "./src/assets/sfx/Galactic Lights.ogg"
+"./src/assets/sfx/hitHurt.ogg" = "./src/assets/sfx/hitHurt.ogg"
+"./src/assets/sfx/laserShoot.ogg" = "./src/assets/sfx/laserShoot.ogg"
+"./src/assets/sfx/pickupCoin.ogg" = "./src/assets/sfx/pickupCoin.ogg"
+"./src/entities/projectiles.py" = "./src/entities/projectiles.py"
+"./src/entities/sprite.py" = "./src/entities/sprite.py"
+"./src/entities/text_line.py" = "./src/entities/text_line.py"
+"./src/entities/__init__.py" = "./src/entities/__init__.py"
+"./src/rendering/renderer.py" = "./src/rendering/renderer.py"
+"./src/rendering/render_group.py" = "./src/rendering/render_group.py"
+"./src/rendering/render_pipeline.py" = "./src/rendering/render_pipeline.py"
+"./src/rendering/textures.py" = "./src/rendering/textures.py"
+"./src/rendering/__init__.py" = "./src/rendering/__init__.py"
+"./src/rendering/shaders/datastream.frag" = "./src/rendering/shaders/datastream.frag"
+"./src/rendering/shaders/default.frag" = "./src/rendering/shaders/default.frag"
+"./src/rendering/shaders/default.vert" = "./src/rendering/shaders/default.vert"
+"./src/window/inputs_map.py" = "./src/window/inputs_map.py"
+"./src/window/pygame_window.py" = "./src/window/pygame_window.py"
+"./src/window/audio/base.py" = "./src/window/audio/base.py"
+"./src/window/audio/pygame_audio.py" = "./src/window/audio/pygame_audio.py"
+"./src/window/audio/web_audio.py" = "./src/window/audio/web_audio.py"
